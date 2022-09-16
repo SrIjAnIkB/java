@@ -7,7 +7,6 @@ class CountCompositeNum
 
 	static int compositeCount(int arr[], int n)
 	{
-		// Find maximum value in the array
 		int max_val = Arrays.stream(arr).max().getAsInt();
 
 		Vector<Boolean> prime = new Vector<Boolean>(max_val + 1);
