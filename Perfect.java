@@ -4,7 +4,7 @@ public class Perfect
 public static void main(String args[])    
 {  
 long n, sum=0;  
-Scanner sc=new Scanner(System.in);         
+Scanner sc=new Scanner(System.in);        
 System.out.print("Enter the number: ");  
 n=sc.nextLong();  
 int i=1;  
